@@ -15,7 +15,7 @@ function currentLine (nowLine) {
   var people = [];
   let i = 0;
   while (nowLine.length > i) {
-    people.push(`${i+1}. ${nowLine[i]}` + ` ` );
+    people.push(`${i+1}. ${nowLine[i]}`);
     i++;
   }
   if (nowLine.length > 0) {
