@@ -19,7 +19,7 @@ function currentLine (nowLine) {
     i++;
   }
   if (nowLine.length > 0) {
-    return `The line is currently: ` + people;
+    return `The line is currently: ${people.join(', ')}`;
   } else {
     return "The line is currently empty."
   }
